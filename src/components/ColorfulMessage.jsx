@@ -11,6 +11,7 @@ import React from "react";
 
 //分割代入してみる
 const ColorfulMessage = (props) => {
+  // console.log('親のコンポーネント変更でも再レンダリング');
   const { color, children } = props; //分割代入
   // console.log(props);
   const contentStyle = {
